@@ -1,0 +1,80 @@
+Project: United Network
+
+United Network is a modular, creator-first website designed to connect Minecraft freelancers with clients who value clarity, polish, and creative precision. It showcases services like builds, plugins, thumbnails, skins, music, and more.
+
+✅ Semantic URLs:
+- /about
+- /gallery
+- /discord
+- /login
+- /reviews
+
+✅ Homepage Features:
+- Animated typewriter-style heading cycling through creator roles
+- Three call-to-action buttons:
+  - “Join Us Now” → discord.gg/unitednetworkmc
+  - “View Our Gallery” → united-network.xyz/gallery
+  - “View Reviews” → united-network.xyz/reviews
+- Top-left logo (shopping cart with coins) should link back to homepage
+
+✅ Design Specs:
+- Background: #302F2F
+- Main Text: #FFFFFF
+- Accent Text: #A8F0E8
+- Small Text: #838787
+- Discord Button: #BAE0CA
+
+✅ Login System:
+- Whitelisted access only
+- Credentials:
+  - Username: cozmicwayz | Password: Apple321234
+  - Username: levi | Password: cozmiclevi
+
+✅ Gallery Page:
+- Publicly viewable
+- Logged-in users can upload, edit, delete
+- Upload flow:
+  - Title Box (5x5 units)
+  - Upload Box (random image preview)
+  - Description Box
+- Clickable items open full view with navigation arrows
+- Search bar + pagination (9 items per page)
+- Right-click menu: Edit / Delete / Share
+- ⚠️ Fix: Gallery button must route correctly to /gallery
+- ⚠️ Fix: Uploaded images must appear across all devices (not just localStorage)
+
+✅ Reviews Page:
+- Publicly viewable
+- Only logged-in users can create/edit/delete
+- Upload flow:
+  - Title Box (5x5 units)
+  - Upload Box (profile-style image between title and description)
+  - Description Box
+- Clickable items open full view with navigation arrows
+- Search bar + pagination (9 items per page)
+- Right-click menu: Edit / Delete / Share
+- ⚠️ Fix: Reviews button must route correctly to /reviews
+
+✅ General Fixes:
+- Logo must link back to homepage
+- Refreshing causes 404 error → switch to hash routing or SPA navigation
+- Add Supabase for persistent public storage and auth
+- Logged-in users can delete gallery/review items
+- Make gallery and reviews visible to all visitors (not just localStorage)
+
+✅ New About Text:
+United Network is a creator-first marketplace built to connect Minecraft freelancers with clients who value quality, clarity, and creative precision. Whether you're commissioning a build, requesting a plugin, or searching for the perfect thumbnail, our platform makes it easy to find the right talent for your project.
+
+We believe every commission should be clean, transparent, and tailored to your vision. That’s why we’ve designed United Network to be modular, scalable, ready for everything!
+
+Our community includes builders, developers, editors, artists, musicians, and more—all committed to delivering work that’s polished, purposeful, and future-proof. We don’t just showcase creators—we empower them.
+
+United Network was made by freelancers, for freelancers.
+
+✅ Animation & Effects Requests:
+- Add smooth transitions between pages
+- Add hover effects to buttons and cards
+- Add fade-in or slide-in animations to gallery/review items
+- Add modal popups for edit/delete/share actions
+- Add animated loading indicators for uploads and page transitions
+
