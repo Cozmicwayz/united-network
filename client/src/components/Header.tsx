@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'wouter';
 import { Button } from '@/components/ui/button';
-import logoIcon from '@assets/contentmarket_logoicon_1758781042537.webp';
+import { ShoppingCart } from 'lucide-react';
 
 interface HeaderProps {
   isLoggedIn?: boolean;
@@ -24,11 +24,7 @@ export default function Header({ isLoggedIn = false, onLoginClick, onLogoutClick
         {/* Logo */}
         <Link href="/" data-testid="link-home">
           <div className="flex items-center space-x-3 hover-elevate rounded-md px-3 py-2 transition-colors cursor-pointer">
-            <img 
-              src={logoIcon} 
-              alt="United Network Logo" 
-              className="h-10 w-10 object-contain"
-            />
+            <ShoppingCart className="h-10 w-10 text-accent" />
             <span className="text-xl font-bold text-foreground">United Network</span>
           </div>
         </Link>
